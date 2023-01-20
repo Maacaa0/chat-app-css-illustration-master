@@ -302,6 +302,10 @@ h1 {
     .mobile {
         margin: 0;
     }
+    
+    .mobile_bottom-part {
+        padding-bottom: 0.5rem;
+    }
 
     .text {
         text-align: center;
