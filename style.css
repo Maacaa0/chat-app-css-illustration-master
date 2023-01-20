@@ -86,7 +86,7 @@ main {
 
 .mobile {
     width: 15.4rem;
-    height: 31.5rem;
+    height: auto;
     border-radius: 2rem;
     border: solid white .7rem;
     background: var(--LightGrayishViolet);
