@@ -105,6 +105,7 @@ main {
     align-items: flex-end;
     gap: 4.4rem;
     height: 4.2rem;
+    overflow-y: hidden;
 
     background: linear-gradient(90deg, rgba(136,56,255,1) 20%, rgba(233,66,255,1) 90%);
     border-radius: 20px 20px 5px 5px;
@@ -240,9 +241,9 @@ span {
     padding: 0.2rem 0.1rem 0.1rem 1.1rem;
     border-radius: 1rem;
     letter-spacing: -0.3px;
-    gap: 5.9rem;
     align-items: center;
     margin-top: 1.2rem;
+    justify-content: space-between;
 }
 
 .button {
@@ -316,4 +317,8 @@ h1 {
     .text {
         width: auto;
     }
+}
+
+::selection {
+    background: rgba(233,66,255,.3);
 }
